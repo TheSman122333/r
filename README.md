@@ -10,8 +10,8 @@
 ![image](https://github.com/user-attachments/assets/d2533564-d6a0-4218-96d1-6654f951d77b)
 
 
-<h1>Rizz App</h1>
-  <p><strong>Rizz App</strong> is a fun and interactive application designed to help users navigate awkward or humorous love scenarios. Using AI-generated prompts, the app creates unique, cringeworthy situations that users can respond to. The goal of the app is to provide entertainment and help users break the ice in awkward social situations, all while creating funny and memorable interactions.</p>
+<h1>RizzUp</h1>
+  <p><strong>RizzUp</strong> is a fun and interactive application designed to help users navigate awkward or humorous love scenarios. Using AI-generated prompts, the app creates unique, cringeworthy situations that users can respond to. The goal of the app is to provide entertainment and help users break the ice in awkward social situations, all while creating funny and memorable interactions.</p>
 
   <h2>Features</h2>
   <ul>
@@ -58,7 +58,7 @@
   </ul>
 
   <h2>Contributing</h2>
-  <p>To contribute to the development of Rizz App, follow these steps:</p>
+  <p>To contribute to the development of RizzUp, follow these steps:</p>
   <ol>
     <li>Fork the repository.</li>
     <li>Create a new branch:
