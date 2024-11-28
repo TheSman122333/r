@@ -21,7 +21,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #ba7c92;
+    background-color: #95214a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
@@ -51,7 +51,7 @@ html, body {
 .navbar .nav-links a {
     margin: 0 15px;
     font-size: 16px;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     transition: color 0.3s, transform 0.3s;
     font-family: 'Poppins', sans-serif;
@@ -60,16 +60,17 @@ html, body {
 .navbar .nav-links a:hover {
     transform: scale(1.1);
     background-color: #ffffff;
-    color: #ba7c92;
+    color: #95214a;
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
+
 
 /* Container and Content */
 .container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background: linear-gradient(145deg, #fff, #ffe4e1);
+    background: linear-gradient(145deg, #fff, #bd7f79);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -90,7 +91,7 @@ html, body {
 /* Chat Box */
 .chat-box {
     margin: 20px auto;
-    background: linear-gradient(145deg, #ffe4e1, #d04f7c);
+    background: linear-gradient(145deg, #ffe4e1, #cf4474);
     border-radius: 12px;
     padding: 20px;
     width: 100%;
@@ -112,7 +113,7 @@ html, body {
     padding: 10px;
     background: #fff;
     border-radius: 8px;
-    border: 1px solid #953e5c;
+    border: 1px solid #a95572;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
     max-height: 300px; /* Limit the height */
@@ -121,7 +122,7 @@ html, body {
 /* Chat Input Area */
 .chat-input {
     display: flex;
-    border: 1px solid #843450;
+    border: 1px solid #c4406e;
     border-radius: 8px;
     overflow: hidden;
     background: #fff;
@@ -136,7 +137,7 @@ html, body {
     outline: none; /* Remove outline for cleaner look */
     font-size: 16px;
     color: #4d4d4d;
-    border-right: 1px solid #a04b68; /* Divider between input and button */
+    border-right: 1px solid #9a3859; /* Divider between input and button */
     font-family: 'Poppins', sans-serif;
     height: 40px; /* Fixed height for input box */
     resize: none; /* Prevent resizing */
@@ -144,7 +145,7 @@ html, body {
 
 /* Send Button */
 .chat-input button {
-    background: linear-gradient(145deg, #87303d, #f48fb1);
+    background: linear-gradient(145deg, #6f2530, #c44d75);
     color: #fff;
     border: none;
     padding: 12px 24px;
@@ -158,10 +159,9 @@ html, body {
 }
 
 .chat-input button:hover {
-    background: linear-gradient(145deg, #ef4a81, #ffb6c1);
+    background: linear-gradient(145deg, #bc496f, #ffbfc9);
     transform: scale(1.05);
 }
-
 
 /* Chat Box Glare Effect */
 .chat-box:before {
@@ -183,7 +183,7 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
-    background-color: #f781aa;
+    background-color: #ff82ad;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
     position: fixed; /* Ensures the footer stays at the bottom */
     bottom: 0;
