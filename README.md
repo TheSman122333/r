@@ -1,17 +1,18 @@
-![image](https://github.com/user-attachments/assets/03bc55d5-6c65-455b-b413-c99c2954f7ab)
+![image](https://github.com/user-attachments/assets/97785abb-6054-420d-a0f8-116182989187)
 
 
-![image](https://github.com/user-attachments/assets/b3a89c1d-7c4d-43af-8b18-08ba7481226f)
+![image](https://github.com/user-attachments/assets/d815fea8-c687-4a65-a853-53d454ae6a08)
 
 
-![image](https://github.com/user-attachments/assets/c7eb2e89-04c1-47c1-a8c3-7119b18fc1bb)
+![image](https://github.com/user-attachments/assets/5fd32c19-cc82-4a68-8216-ced463b358c8)
 
 
-![image](https://github.com/user-attachments/assets/d2533564-d6a0-4218-96d1-6654f951d77b)
+![image](https://github.com/user-attachments/assets/066814e2-6955-4623-b8fa-276265a023d0)
 
 
-<h1>Rizz App</h1>
-  <p><strong>Rizz App</strong> is a fun and interactive application designed to help users navigate awkward or humorous love scenarios. Using AI-generated prompts, the app creates unique, cringeworthy situations that users can respond to. The goal of the app is to provide entertainment and help users break the ice in awkward social situations, all while creating funny and memorable interactions.</p>
+
+<h1>RizzUp</h1>
+  <p><strong>RizzUp</strong> is a fun and interactive application designed to help users navigate awkward or humorous love scenarios. Using AI-generated prompts, the app creates unique, cringeworthy situations that users can respond to. The goal of the app is to provide entertainment and help users break the ice in awkward social situations, all while creating funny and memorable interactions.</p>
 
   <h2>Features</h2>
   <ul>
@@ -58,7 +59,7 @@
   </ul>
 
   <h2>Contributing</h2>
-  <p>To contribute to the development of Rizz App, follow these steps:</p>
+  <p>To contribute to the development of RizzUp, follow these steps:</p>
   <ol>
     <li>Fork the repository.</li>
     <li>Create a new branch:
