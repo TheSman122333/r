@@ -1,13 +1,14 @@
 ![image](https://github.com/user-attachments/assets/97785abb-6054-420d-a0f8-116182989187)
 
 
-![image](https://github.com/user-attachments/assets/b3a89c1d-7c4d-43af-8b18-08ba7481226f)
+![image](https://github.com/user-attachments/assets/d815fea8-c687-4a65-a853-53d454ae6a08)
 
 
-![image](https://github.com/user-attachments/assets/c7eb2e89-04c1-47c1-a8c3-7119b18fc1bb)
+![image](https://github.com/user-attachments/assets/5fd32c19-cc82-4a68-8216-ced463b358c8)
 
 
-![image](https://github.com/user-attachments/assets/d2533564-d6a0-4218-96d1-6654f951d77b)
+![image](https://github.com/user-attachments/assets/066814e2-6955-4623-b8fa-276265a023d0)
+
 
 
 <h1>RizzUp</h1>
