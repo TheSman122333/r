@@ -270,8 +270,23 @@ html, body {
 
 /* Hide banners on small screens */
 @media (max-width: 768px), (max-height: 600px) {
-    .banner {
+    /* Hide all elements except the body */
+    body * {
         display: none;
+    }
+
+    /* Show the mobile compatibility message */
+    body::before {
+        content: "Mobile compatibility will come soon";
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        padding: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
 

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap');
+
+body {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    width: 250px;
+    padding: 10px;
+    background: linear-gradient(#FDFCFB, #FF82AD)
+  }
+  
+  #content {
+    text-align: center;
+  }
+  
+  #pickup-line {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #0077cc;
+    font-family: 'Great Vibes', 'Poppins';
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

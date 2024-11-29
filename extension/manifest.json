@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Pick Up Line Rizz",
+    "version": "1.0",
+    "description": "Get a random pick-up line and link to RizzUp!",
+    "permissions": ["activeTab"],       
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
