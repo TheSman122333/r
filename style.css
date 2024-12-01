@@ -278,12 +278,14 @@ html, body {
     z-index: 2; /* Place above banners */
 }
 
-/* Hide banners on small screens */ /*
+/* Hide banners on small screens */ 
 @media (max-width: 768px), (max-height: 600px) {
+    /* Hide all elements except the body */
     body * {
         display: none;
     }
 
+    /* Show the mobile compatibility message */
     body::before {
         content: "Mobile compatibility will come soon, Sorry ❤️";
         display: block;
@@ -299,7 +301,7 @@ html, body {
     .footer{
         display:none;
     }
-}*/
+}
 
 .customization-panel {
     display: flex;
