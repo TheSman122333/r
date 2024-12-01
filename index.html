@@ -37,6 +37,26 @@
             </div>
         </div>
     </div>
+    <div class="customization-panel">
+        <label for="userGender">Your Gender:</label>
+        <input type="text" id="userGender" placeholder="E.g., Male, Female, Non-binary">
+        
+        <label for="aiGender">AI Gender:</label>
+        <input type="text" id="aiGender" placeholder="E.g., Male, Female, Non-binary">
+        
+        <label for="aiName">AI Name:</label>
+        <input type="text" id="aiName" placeholder="E.g., RizzBot, Alex">
+    </div>
+    
+    <div class="difficulty-selector">
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium" selected>Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+    </div>
+    
     <p style="margin-left:32vw"> In order to install the extension, unzip it, go to chrome://extensions, and load unpacked.</p>
     <img src="arrowfav.ico" style="margin-left:50vw">
     <script type="module" src="script.js"></script>

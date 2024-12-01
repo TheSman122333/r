@@ -290,3 +290,57 @@ html, body {
     }
 }
 
+.customization-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+}
+
+.customization-panel label {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.customization-panel input {
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 14px;
+    border: 1px solid #a95572;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 300px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.customization-panel input:focus {
+    border-color: #c44d75;
+}
+
+.difficulty-selector {
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+}
+
+.difficulty-selector label {
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.difficulty-selector select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #a95572;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.difficulty-selector select:focus {
+    border-color: #c44d75;
+}
