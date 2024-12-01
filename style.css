@@ -14,6 +14,7 @@ html, body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
     position: relative; /* Required for the pseudo-element positioning */
     z-index: 0; /* Keep body content below the overlay */
+    min-height: 126vh;
 }
 /* Navbar */
 .navbar {
@@ -294,7 +295,6 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 15px 0;
     font-family: 'Poppins', sans-serif;
     color: #4d4d4d;
 }
