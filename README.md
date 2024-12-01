@@ -34,7 +34,7 @@
   <h3>Installation</h3>
   <ol>
     <li>Clone the repository to your local machine:
-      <pre><code>git clone https://github.com/your-username/rizzup.git</code></pre>
+      <pre><code>git clone https://github.com/thesman122333/rizzup.git</code></pre>
     </li>
     <li>Navigate to the project directory:
       <pre><code>cd rizzup</code></pre>
@@ -63,13 +63,13 @@
   <ol>
     <li>Fork the repository.</li>
     <li>Create a new branch:
-      <pre><code>git checkout -b feature/your-feature-name</code></pre>
+      <pre><code>git checkout -b feature/thesman122333</code></pre>
     </li>
     <li>Make your changes and commit them:
       <pre><code>git commit -m 'Add your feature'</code></pre>
     </li>
     <li>Push to your branch:
-      <pre><code>git push origin feature/your-feature-name</code></pre>
+      <pre><code>git push origin feature/thesman122333</code></pre>
     </li>
     <li>Submit a pull request to the main repository.</li>
   </ol>
