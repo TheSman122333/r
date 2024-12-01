@@ -15,6 +15,8 @@ html, body {
     position: relative; /* Required for the pseudo-element positioning */
     z-index: 0; /* Keep body content below the overlay */
     min-height: 126vh;
+    padding-bottom: 60px; /* Matches the footer height */
+    box-sizing: border-box; /* Ensure padding calculation doesn't break layout */
 }
 /* Navbar */
 .navbar {
@@ -68,7 +70,7 @@ html, body {
 
 /* Container and Content */
 .container {
-    max-width: 800px;
+    width: 40%;
     margin: 40px auto;
     padding: 20px;
     background: linear-gradient(145deg, #fff, #bd7f79);
@@ -95,7 +97,7 @@ html, body {
     background: linear-gradient(145deg, #ffe4e1, #cf4474);
     border-radius: 12px;
     padding: 20px;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     height: 400px;
     display: flex;
@@ -186,20 +188,23 @@ html, body {
     padding: 15px 20px;
     background-color: #ff82ad;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Ensures the footer stays at the bottom */
+    position: fixed; /* Keeps the footer at the bottom */
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 10; /* Keeps the footer above other elements */
+    height: 60px; /* Fixed height to prevent size changes */
+    z-index: 10; /* Ensures the footer is above other elements */
     overflow: hidden;
+    box-sizing: border-box; /* Ensures padding doesn't affect size */
 }
 
+/* Footer Glare Effect */
 .footer:before {
     content: '';
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 200%;
+    width: 250%;
     height: 200%;
     background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
     transform: rotate(30deg);
@@ -207,6 +212,7 @@ html, body {
     pointer-events: none;
 }
 
+/* Footer Content */
 .footer .footer-content {
     font-family: 'Great Vibes', cursive;
     font-size: 18px;
@@ -215,10 +221,12 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center; /* Ensure centered text layout */
 }
 
+/* Footer Image */
 .footer img {
-    width: 40px;  /* Adjust size as needed */
+    width: 40px;  /* Fixed size for consistent layout */
     height: 40px;
     margin-right: 10px; /* Space between image and text */
     border-radius: 50%; /* Optional: make the image round */
@@ -237,7 +245,8 @@ html, body {
 .banner {
     position: absolute;
     top: 50%;
-    width: 100vw; /* Adjust size as needed */
+    width: 20%; /* Use percentage to adapt to different screen sizes */
+    max-width: 600px; /* Optional: Limit maximum width */
     height: auto; /* Maintain aspect ratio */
     transform: translateY(-50%); /* Center vertically */
     z-index: 1; /* Ensure banners are above the background */
