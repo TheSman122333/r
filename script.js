@@ -107,6 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             - Hard: Be very challenging and witty, making it tough for the user to succeed.
             Respond with creativity and adapt to the gender preferences while respecting all perspectives.
             The current scenario is: ${initialMessage}.
+            Make all names and genders and names of other things fully constant. Please just lock it in, unless the user changes it via the customization panel.
         `
     };
       
