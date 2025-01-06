@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="arrowfav.ico">
+    <title>RizzUp</title>
+    <link rel="stylesheet" href="stylect.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">RizzUp 💕</a>
+            <div class="nav-links">
+                <a href="extension.zip" download="extension.zip">Chrome Extension</a>
+            </div>
+        </nav>
+    </header>
+    <img src="poster1v2.png" alt="Left Banner" class="banner left-banner">
+    <img src="poster2.png" alt="Right Banner" class="banner right-banner">
+    <div class="compatibility-test">
+        <h2>Compatibility Checker 💕</h2>
+        <form id="name-compatibility-form" onsubmit="handleFormSubmit(event)">
+            <div class="input-group">
+                <label for="name1">Enter First Name:</label>
+                <input type="text" id="name1" name="name1" placeholder="First Name" required>
+            </div>
+            <div class="input-group">
+                <label for="name2">Enter Second Name:</label>
+                <input type="text" id="name2" name="name2" placeholder="Second Name" required>
+            </div>
+            <button type="submit" class="check-button">Check Compatibility</button>
+        </form>
+        <div id="compatibility-result" class="compatibility-result"></div>
+    </div>
+
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Prevent form submission
+            checkCompatibility();  // Call the compatibility checker
+        }
+
+        function checkCompatibility() {
+            const name1 = document.getElementById('name1').value.trim();
+            const name2 = document.getElementById('name2').value.trim();
+            const resultDiv = document.getElementById('compatibility-result');
+
+            if (name1 === '' || name2 === '') {
+                resultDiv.textContent = 'Please enter both names!';
+                resultDiv.classList.add('show');
+                return;
+            }
+
+            // Calculate compatibility score (random percentage for now)
+            const compatibilityScore = Math.floor(Math.random() * 101);
+            resultDiv.textContent = `${name1} and ${name2}'s compatibility is ${compatibilityScore}%! 💖`;
+            resultDiv.classList.add('show');
+        }
+    </script>
+    <img src="arrowfav.ico" style="margin-left:50vw">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <img src="arrowfav.png" alt="Love Icon" />
+        >>-> Made with ❤️ (and &nbsp;<a href="https://github.com/TheSman122333">powered by github</a>) by &nbsp; 
+        <a href="https://www.linkedin.com/in/treeman33/">Sriman Arya</a> 
+        (14, freshman at &nbsp;<a href="https://wihi.org">Wihi</a>, this project is made for High Seas Hack Club) <-<<
+    </div>
+</footer>
+</html>

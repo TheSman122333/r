@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   },
                   body: JSON.stringify({
                       messages: messages,
-                      model: "llama-3.1-70b-versatile",
+                      model: "llama-3.1-8b-instant",
                       stream: false,
                   }),
               }
