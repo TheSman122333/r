@@ -124,11 +124,11 @@ document.addEventListener('DOMContentLoaded', () => {
                   method: "POST",
                   headers: {
                       "Content-Type": "application/json",
-                      Authorization: `Bearer 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`,
+                      Authorization: `Bearer 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`,
                   },
                   body: JSON.stringify({
                       messages: messages,
-                      model: "llama-3.1-8b-instant",
+                      model: "llama-3.3-70b-versatile",
                       stream: false,
                   }),
               }
